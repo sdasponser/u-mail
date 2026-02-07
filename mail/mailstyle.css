@@ -65,6 +65,10 @@
     border-right: 1px solid whitesmoke;
 }
 
+.mailLink{
+    text-decoration:none;
+}
+
 .sidebarHeader{
     display: flex;
     align-items: center;
@@ -132,47 +136,51 @@
 .bodyText{
     flex: 1;
     overflow: scroll;
+}
+
+.bodyHead{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
     margin-left: 8px;
 }
 
-.entryRow{
+.headSection{
+    display:flex;
+    padding: 2px;
+    margin-top:2px;
+    margin-bottom:2px;
     border: 1px solid darkgrey;
-    margin-right:8px;
 }
 
-.entryRow:hover{
-    background-color: whitesmoke;
-}
-
-.mailLink{
-    text-decoration:none;
-}
-
-.sender p{
+.mailHead{
     font-family: Arial;
-    font-weight: 600;
-    font-size: 17px;
-    margin-top: 6px;
-    margin-bottom: 3px;
-    margin-left: 4px;
-    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 4px;
 }
 
-.subject p{
+.mailData{
     font-family: Arial;
-    font-size: 15px;
-    margin-bottom: 3px;
-    margin-left: 4px;
-    color: black;
+    font-size: 16px;
 }
 
-.preview p{
+.bodyBody{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 10px;
+    border: 1px solid darkgrey;
+}
+
+.mailText{
+    padding: 6px;
+}
+
+.paragraph{
+    margin-top: 4px;
+    margin-bottom: 4px;
     font-family: Arial;
-    font-size: 13px;
-    color: slategrey;
-    margin-bottom: 6px;
-    margin-left: 4px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-size: 16px;
 }
