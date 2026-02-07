@@ -5,10 +5,10 @@ document.getElementById("login").addEventListener("submit", function(e)
 
     if(pwd==="W3ST1S8E57!")
     {
-        window.location.href = "/4e4f204348454154494e47.html";
+        window.location.href = "../4e4f204348454154494e47.html";
     }
     else
     {
-        window.location.href = "/error.html";
+        window.location.href = "../error.html";
     }
 });
