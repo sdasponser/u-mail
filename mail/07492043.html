@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+    Author: E. H. Zhang
+    Adapted from code by: S. Gouda
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="./mailstyle.css"/>
+    <link rel="icon" type="image/x-icon" href="../assets/t.icon.png">
+    <title>U:MAIL</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="header">
+        <div class="headerLeft">
+            <img src="../assets/logo.png">
+        </div>
+        <div class="headerCenter">
+            <form id="login" autocomplete="off">
+                <input type="text" placeholder="Search" id="pwd">
+            </form>
+            <script src="/assets/checkPwd.js"></script>
+        </div>
+        <div class="headerRight">
+            <img src="../assets/user.png">
+            <p>Admin</p>
+        </div>
+    </div>
+
+    <!--BODY-->
+    <div class="mainBody">
+        <!--SIDEBAR-->
+        <div class="sidebar">
+            <div class="sidebarHeader">
+                <h4>Navigation</h4>
+            </div>
+            <a href="../index.html" class="mailLink">
+                <div class="sidebarOption sidebarOptionActive">
+                    <p>Inbox</p>
+                </div>
+            </a>
+            <a href="../drafts.html" class="mailLink">
+                <div class="sidebarOption">
+                    <p>Drafts</p>
+                </div>
+            </a>
+            <a href="../sent.html" class="mailLink">
+                <div class="sidebarOption">
+                    <p>Sent</p>
+                </div>
+            </a>
+            <a href="../trash.html" class="mailLink">
+                <div class="sidebarOption" style="border-bottom: 1px solid lightgrey;">
+                    <p>Trash</p>
+                </div>
+            </a>
+            <div class="credits">
+                <p>Designed by WIB LLC</p>
+                <a href="mailto:wib.webmaster@outlook.com" class="mailLink">Contact Webmaster</a>
+            </div>
+        </div>
+        <!--TEXT-->
+        <div class="bodyText">
+            <div class="bodyHead">
+                <div class="headSection sender">
+                    <p class="mailHead">From:</p>
+                    <p class="mailData">Kevin Leshay</p>
+                </div>
+                <div class="headSection recipient">
+                    <p class="mailHead">To:</p>
+                    <p class="mailData">Chet Snowey</p>
+                </div>
+                <div class="headSection cc">
+                    <p class="mailHead">Cc: </p>
+                    <p class="mailData"> </p>
+                </div>
+                <div class="headSection subject">
+                    <p class="mailHead">Subject: </p>
+                    <p class="mailData">Support Ticket #07492043</p>
+                </div>
+            </div>
+            <div class="bodyBody">
+                <div class="mailText">
+                    <p class="paragraph">Hello Chet,</p>
+                    <p class="paragraph">I was trying to download the sample exam through 
+                        Examplify to make sure everything was working smoothly as I’d like to 
+                        get the Fastest Downloader Award for the ninth time this year but it 
+                        doesn’t seem to be working. The error message told me to send you this 
+                        exam file for analysis and it’s looking a little light. Maybe you can 
+                        make heads or tails of this.</p>
+                    <p class="paragraph">Thanks,</p>
+                    <p class="paragraph">Kevin</p>
+                    <br>
+                    <a href="../assets/WL_Sample_Exam_285738.xmzx" class="mailLink" target="_blank" rel="noopener noreferrer">
+                        <p class="paragraph">&lt;Attachment WL_Sample_Exam_285738.xmzx&gt;</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
